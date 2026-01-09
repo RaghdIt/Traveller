@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+	
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding-bottom: 100px;
+}
+
+/* Header: Welcome and Links */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: white;
+}
+
+.header-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/* User Information and Photo */
+.user-info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+	padding: 15px; /* Add some padding inside the border */
+    border: 2px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background: linear-gradient(270deg, #8bc8ca, #b0d1e6, #d8c7e0);
+     animation: gradientShift 10s ease infinite;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info p {
+    margin: 5px 0;
+}
+
+.user-info-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* Travels Section: Header and Filter */
+.travels-section {
+    margin-top: 20px;
+}
+
+.travels-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+}
+
+.filter-section label {
+    margin-right: 10px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center; /* Center text horizontally */
+    vertical-align: middle; /* Center text vertically */
+    border: 1px solid #ddd; /* Optional: to add a border around cells */
+}
+
+table img {
+    max-width: 50px; /* Adjust the size of the image */
+    height: auto;
+    vertical-align: middle; /* Align image with text */
+}
+
+.header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            background: linear-gradient(270deg, #8bc8ca, #b0d1e6, #d8c7e0);
+            animation: gradientShift 10s ease infinite;
+            color: white;
+        }
+
+        .header img {
+            height: 80px; } 
+			
+         .footer {
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            background: linear-gradient(270deg, #8bc8ca, #b0d1e6, #d8c7e0);
+            animation: gradientShift 10s ease infinite;
+            padding: 20px;
+            color: white;
+		text-align: center; }
+
+
+.traveller-name {
+    vertical-align: middle;
+    margin-right: 10px; /* Add some space between the name and the image */
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    border-radius: 50%; /* Optional: Makes the image circular */
+}
+
+#no-travels-message {
+    
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f8d7da; /* Light red background for emphasis */
+    color: #721c24; /* Dark red text color */
+    border: 1px solid #f5c6cb; /* Red border */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center-align text */
+    font-size: 18px; /* Slightly larger text */
+    max-width: 600px; /* Max width for better readability */
+}
+
+
